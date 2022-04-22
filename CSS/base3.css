@@ -37,7 +37,85 @@ body {
 	font-size: 1em;
 	line-height: 1.4;
 }
+/* Tables*/
+thead {
+	font-size: 1.2em;
+	color: white; 
+}
 
+table, th, td {
+  border: 2px solid;
+  margin-top:15px;
+ padding: 10px 10px 10px 10px;
+ 
+}
+table {
+    border-collapse: collapse;
+    font-size: 0.75em;
+    width: 100%;
+    background: white;
+    border-width: 10px;
+    border-style: outset;
+    border-image: initial;
+}
+
+
+captionText{
+	font-size: 5em;
+	text-align: center;
+}
+
+/* Table Styles */
+   table {
+	   background:white;
+
+	  border-collapse: collapse;
+		font-size: 0.75em;
+		width: 100%;
+	  }
+
+
+/* Table Cell Styles */
+table thead, table td {
+	border: 3px solid gray;
+	padding: 10px;
+	vertical-align: top;
+	}
+
+
+/* Table Caption Styles */
+tablecaption{
+	caption-side: bottom;
+	text-align: center;
+}
+
+
+/* Row Group Styles */
+table thead {
+
+	color: white;
+	
+}
+table.schedule tfoot {
+	background: gray;
+	color: light-gray;
+	text-align: center;
+	font-size: 2.5em;
+	color: white;
+	
+}
+table.schedule thead tr {
+	height:	15px;
+	font-size: 1.2em;
+}
+footer {
+	text-align: center;
+	font-size: 0.6em;
+	margin-top: 4%;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	clear: both;
+	padding-bottom: 20px;
+}
 
 /* =============================================
 	Hypertext links
