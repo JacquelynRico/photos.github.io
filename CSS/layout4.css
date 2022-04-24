@@ -66,6 +66,10 @@ body h1 {
 
 body article h1 {
 	font-size: 1.15em;
+		text-align: center;
+		color: gray;
+		border-box: gray;
+		background-color: #ffdcdb;
 }
 
 header img {
@@ -137,6 +141,7 @@ body {
 
 header h1 {
    font-size: 2.2em;
+   text-align: center;
 }
 
 body article h1 {
@@ -190,7 +195,7 @@ article ul {
 
 article aside {
 	float: right;
-	margin: 15px 0px 3px 3px;
+	margin: 30px 0px 3px 4px;
 	padding: 7%;
 	border: 1px solid black;
 	width: 35%;
