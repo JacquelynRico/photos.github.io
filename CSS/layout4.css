@@ -68,7 +68,6 @@ body article h1 {
 	font-size: 1.15em;
 		text-align: center;
 		color: gray;
-		border-box: gray;
 		background-color: #ffdcdb;
 }
 
@@ -223,7 +222,7 @@ article aside h2 {
 	text-align: center;
 	color: ivory;
 	background-color: gray;
-	border: 3px solid rgb(111, 111, 111);
+	
 	border-radius:10px;
 }
 article aside h3 {
@@ -301,4 +300,6 @@ article div h1 {
 
 article div p {
 font-size: 0.95em;
+}
+}
 }
