@@ -50,19 +50,17 @@ fictional.
 	</nav>
 	
 	<div id = "wrapper">
+	
+	 <div class="outerWrap">
+	 <div class="innerWrap">
+	 
+	
+	 
 	<!-- The article section(s) below are the content of your web page, text and images -->
 	
-  <article> 
   
-	 
-	 <div class="outerWrap">
-    <div class="innerWrap">
-        
-		
-    </div>
-	
-	  
-		<legend>Book your session</legend>
+  	<fieldset>
+		<h1>Book your session</h1>
 		
 	<div class="formRow">
 		<label for="name">Name*</label>
@@ -96,12 +94,11 @@ fictional.
 				<option value="other">Other</option> 
 			</select>
 		</div>
-
-			
+		
 		<div class="formRow">
-				<label for="contactme">What memories are you looking to capture?</label>
-				<input name="Memory" id="Memories" type="text" list="MemoriesCaptured"/>
-				<datalist id="Memories2">
+				<label for= "contactme">What memories are you looking to capture?</label>
+				<input name="contactme" id="contactme" type="text" list="contactme"/>
+				<datalist id="contactme">
 					<option value="Newborn">
 					<option value="Senior">
 					<option value="Families">
@@ -110,16 +107,16 @@ fictional.
 					<option value="Truly I DO">
 				</datalist>
 		</div>
-				
+	
 		<div class="formRow">
 				<label for="serviceDate">Expected date of session? </label>
-				<input name="SessionDate" id="Date" type="Date"
-					 step="1" max="10" />
+				<input name="sessionDate" id="Date" type="Date"
+					 step="1"  />
 		</div>
-			<label for="commaBox">Tell me more about your perfect session</label>
-			<textarea name="custExp" id="commBox"></textarea>
+			<label for="exp">Tell me more about your perfect session</label>
+			<textarea name="custexp" id="commaBox"></textarea>
 			
-		</fieldset>
+	
 		
 		<div id="buttons">
 			<input type="submit" value="Book My Session" />
@@ -129,10 +126,10 @@ fictional.
 			<input type="reset" value="Cancel" />
 			
 		</div>
-	</form>	
-
+	</fieldset>	
+</div>
 	
-</article>
+
 
 
     <!-- The footer section below contains contact information, links and social medial link images -->
@@ -149,7 +146,7 @@ fictional.
 </footer>  
 
 </div> <!-- end wrapper --> 
-
+</div>
 
 </body>
 </html>
