@@ -19,7 +19,7 @@ fictional.
    
    <!-- the following link to the stylesheets for this webpage  -->
    
-   <link href="CSS/base.css" rel="stylesheet" />
+   <link href="CSS/base3.css" rel="stylesheet" />
    <link href="CSS/layout.css" rel="stylesheet"/>
    
    
@@ -34,7 +34,7 @@ fictional.
   
  
   
-	<a href="index.html"><img src="Images/logoopt3.png" alt="antique logo"/></a>
+	<a href="index.html"><img src="images/logoopt3.png" alt="antique logo"/></a>
 	</header> 
 
 
@@ -84,21 +84,22 @@ fictional.
 		</div>
 			
 		<div class="formRow">
-			<label for="info">Where did you hear Jacquelyn Rico Photography?<br />
-			(select all that apply)</label>
-			<select name="infoSrc" id="info" size="5" multiple>
-				<option value="internet">Internet</option>
-				<option value= "mag">Instagram</option>
-				<option value="news">Facebook</option>
-				<option value="word">Friends</option>
-				<option value="other">Other</option> 
-			</select>
+				<label for="Social">How did you find Jacquelyn Rico Photography?</label>
+				<input name="findme" id="Social" type="text" list="findme" />
+				<datalist id="findme">
+					<option value="Facebook" >
+					<option value="Instagram" >
+					<option value="Business Card" >
+					<option value="Friend or family" >
+					<option value="Luck" >
+					<option value="Other" >
+				</datalist>
 		</div>
 		
 		<div class="formRow">
-				<label for= "contactme">What memories are you looking to capture?</label>
-				<input name="contactme" id="contactme" type="text" list="contactme"/>
-				<datalist id="contactme">
+				<label for= "capture">What memories are you looking to capture?</label>
+				<input name="contactcapture" id="capture" type="text" list="contact"/>
+				<datalist id="contact">
 					<option value="Newborn">
 					<option value="Senior">
 					<option value="Families">
@@ -110,11 +111,11 @@ fictional.
 	
 		<div class="formRow">
 				<label for="serviceDate">Expected date of session? </label>
-				<input name="sessionDate" id="Date" type="Date"
+				<input name="sessionDate" id="serviceDate" type="Date"
 					 step="1"  />
 		</div>
 			<label for="exp">Tell me more about your perfect session</label>
-			<textarea name="custexp" id="commaBox"></textarea>
+			<textarea name="custexp" id="exp"></textarea>
 			
 	
 		
